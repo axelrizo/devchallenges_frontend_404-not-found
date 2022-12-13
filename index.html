@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,48 @@
 	<title>devchallenges - frontend - 404 not found</title>
 	<!-- tailwind cdn -->
 	<script src="https://cdn.tailwindcss.com"></script>
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500;700&family=Space+Mono:wght@400;700&display=swap"
+		rel="stylesheet">
+	<style>
+		.font-inconsolata {
+			font-family: 'Inconsolata', monospace;
+		}
+
+		.font-space-mono {
+			font-family: 'Space Mono', monospace;
+		}
+
+		.font-montserrat {
+			font-family: 'Montserrat', sans-serif;
+		}
+	</style>
 </head>
+
 <body>
-	
+	<div class="min-h-screen flex flex-col justify-between container max-w-screen-xl mx-auto">
+		<div class="lg:flex-grow lg:flex lg:flex-col">
+			<p class="pl-6 pt-5 font-inconsolata text-2xl tracking-tighter lg:pl-20">404 NOT FOUND</p>
+			<div class="lg:flex lg:flex-grow lg:items-center">
+				<img src="./Scarecrow.png" alt="scarecrow" class="pt-16 px-11 mx-auto lg:pl-8 lg:pr-12" style="max-height: 447px;">
+				<div class="lg:pr-20">
+					<p class="font-space-mono text-5xl pt-16 font-bold pl-6 tracking-tight leading-snug lg:text-6xl">I have bad news for you
+					</p>
+					<p class="font-space-mono tracking-tight pl-6 pt-8 pr-6 lg:pr-32 lg:text-2xl">The page you are looking for might be removed or is
+						temporarily unavailable</p>
+					<button class="font-space-mono mt-16 ml-6 p-6 bg-black text-white text-sm">Back to homepage</button>
+				</div>
+			</div>
+		</div>
+		<p class="font-montserrat text-gray-400 text-sm font-normal text-center pb-6 tracking-tight pt-16">created by <a
+				class="underline font-bold" href="https://www.linkedin.com/in/axelrizo/" target="_blank">@axelrizo</a> -
+			devChallenge.io</p>
+	</div>
 </body>
+
 </html>
