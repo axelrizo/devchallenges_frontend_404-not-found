@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://axelrizo.github.io/devchallenges_frontend_404-not-found/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/zliG4t6juE5WdQQKhxFO">
       Solution
     </a>
     <span> | </span>
@@ -35,15 +35,20 @@
 <!-- OVERVIEW -->
 
 ## Overview
+### Mobile view
+![screenshot](/mobile-screenshot.png)
+### Desktop view
+![screenshot](/desktop-screenshot.png)
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+A simple "404 not found page" done with Tailwind taking care of the responsive view in all devices and sizes.
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+You can see the demo here: <a href="https://axelrizo.github.io/devchallenges_frontend_404-not-found/">Demo</a>
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+It was easy because I had a time developing, but I want the certificate from DevChallenges.
+
+I re-learnt to deploy simples pages with Github Pages.
+
+You need to take care of the page size for responsive views, because you can do it wrong in some points, use viewport height in the view and try to extend your content in all the screen.
 
 ### Built With
 
@@ -61,5 +66,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 - Website [axelrizo.com](https://axelrizo.com)
 - GitHub [@axelrizo](https://github.com/axelrizo)
-- Linkedin [Axel Geovanni Rizo Sánchez](https://www.linkedin.com/in/axel-rizo/)
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Linkedin [Axel Geovanni Rizo Sánchez](https://www.linkedin.com/in/axelrizo/)
